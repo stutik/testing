@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to right, rgba(29, 29, 29, 1), rgb(74, 74, 74));
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 50px;
+    text-align: right;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li a {
+    display: inline-block;
+    background: url('../img/social.jpg');
+    height: 42px;
+    width: 42px;
+    background-size: 400px;
+}
+
+header .social .skype {
+    background-position: -277px 78px;
+}
+
+header .social .facebook {
+    background-position: -79px -35px;
+}
+
+header .social .linkedin {
+    background-position: -30px -35px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+}
+aside li{
+    list-style: none;
+}
+aside li.active a {
+    color: #fff;
+}
+aside li a {
+    color: #5E5E5E;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+main h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    display: inline-block;
+    width: 125px;
+    font-size: 100px;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: #0a0a0a;
+}
+
+footer ul {
+    margin: 0 auto;
+}
+
+footer li {
+    display: inline-block;
+    width: 200px;
+}
+
+footer li div {
+    text-align: left;
+    border-right: 1px solid;
+    padding-left: 16px;
+}
+
+footer li:last-child div {
+    border-right: 0px solid;
+}
+
+footer li p {
+    margin: 0;
+}
