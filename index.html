@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <title>Stuti Kesharwani</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css"> </head>
+
 <body>
-    <h1>Testing</h1>
+    <header>
+        <ul class="social">
+            <li>
+                <a href="#" class="skype"></a>
+            </li>
+            <li>
+                <a href="#" class="facebook"></a>
+            </li>
+            <li>
+                <a href="#" class="linkedin"></a>
+            </li>
+        </ul>
+    </header>
+    <aside>
+        <ul>
+            <li class="active"> <a href="#">HOME</a> </li>
+            <li> <a href="#/about">ABOUT</a> </li>
+             <li> <a href="#/work">WORK</a> </li>
+            <li> <a href="#/blog">BLOG</a> </li>
+            <li> <a href="#/contact">CONTACT</a> </li>
+        </ul>
+    </aside>
+    <main>
+        <div ng-view></div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <div>
+                    <p>Stuti Kesharwani</p>
+                    <p>Frontend Developer</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p> SM Royal, Chandanagar, Hyderabad, INDIA </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>
+                        stutik25@gmail.com
+                    </p>
+                    <p>+91 7337460383</p>
+                </div>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
